@@ -1,0 +1,164 @@
+.nav-item {
+  margin-right: 20px;
+}
+.nav-link {
+  color: #212529 !important;
+  font-weight: 800;
+}
+.t {
+  font-size: 25px;
+  float: right;
+  margin-top: 1px;
+  color: rgb(153, 38, 153);
+}
+.pbutton {
+  background-color: rgba(236, 43, 43, 0.911);
+  outline: none;
+  font-size: 12px;
+  padding: 0px 9px;
+  width: 110px;
+  box-shadow: 2px 1px 5px 2px;
+}
+.digital-marketing {
+  border: 2px solid #fff1daa4;
+  background-color: #deb88761;
+  border-radius: 15px 10px 10px 50px;
+  width: 80%;
+  position: absolute;
+  transform: translate(35px, -300px);
+  padding: 10px 15px;
+}
+.digital-marketing h2 {
+  font-size: 35px;
+}
+
+/* .......................SCROLLBAR................................... */
+body::-webkit-scrollbar {
+  width: 15px;
+  background-color: #fff;
+}
+body::-webkit-scrollbar-track-piece {
+  background-color: #babac0;
+  border-radius: 16px;
+  border: 4px solid #fff;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #babac6;
+  border-radius: 100px;
+  border: 4px solid rgb(255, 255, 255);
+}
+
+body::-webkit-scrollbar-button:start {
+  height: 13px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid black;
+}
+
+body::-webkit-scrollbar-button:end {
+  height: 14px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid black;
+}
+
+.doo::-webkit-scrollbar {
+  background-color: #fff;
+  height: 10px;
+  display: inline-block;
+}
+
+.doo::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+.doo::-webkit-scrollbar-thumb {
+  background-color: rgb(6, 6, 22);
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+/* ............................................................................................... */
+.nav-item a:hover {
+  text-decoration: underline red;
+}
+.pic img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid burlywood;
+  border-radius: 1em 3em;
+}
+.pic {
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+/* ..................................MEDIA QUERIES........................................................ */
+@media (min-width: 1100px) {
+  .col-lg-9 img {
+    height: 510px !important;
+    width: 100% !important;
+  }
+}
+@media (min-width: 1200px) {
+  .col-lg-9 img {
+    height: 520px !important;
+    width: 100% !important;
+  }
+}
+@media (min-width: 1250px) {
+  .col-lg-9 img {
+    height: 530px !important;
+    width: 100% !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .pbutton {
+    position: absolute;
+    transform: translate(-10px, 0px);
+  }
+  .digital-marketing h2 {
+    font-size: 60px;
+  }
+  .digital-marketing {
+    padding-left: 20px;
+  }
+}
+@media (min-width: 992px) {
+  .pbutton {
+    position: absolute;
+    top: 415px;
+    left: 100px;
+    width: 140px;
+  }
+  .digital-marketing {
+    padding-left: 30px;
+    width: 75%;
+  }
+  .digital-marketing h2 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 1000px) {
+  .pbutton {
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 140px;
+  }
+  .digital-marketing {
+    padding-left: 30px;
+    width: 785px;
+    text-align: left;
+  }
+  .digital-marketing h2 {
+    font-size: 70px;
+  }
+}
+@media (min-width: 570px) and (max-width: 768px) {
+  .digital-marketing {
+    width: 390px;
+  }
+}
+@media (min-width: 762px) {
+  .digital-marketing h2 {
+    text-align: center !important;
+  }
+}
